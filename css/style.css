@@ -1,0 +1,1201 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    background-color: #5a8dd5;
+}
+
+.header p {
+    text-align: center;
+    margin: 0;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+    padding: 6px 0px;
+}
+
+.menu-bar {
+    width: 100%;
+    margin: 0;
+    padding: 14px 0;
+    background-color: #ffffff;
+}
+
+.menu-bar .container .navbar {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    margin-bottom: 0;
+}
+
+.nav-bar-logo .navbar-header .navbar-brand img {
+    width: 160px;
+    height: auto;
+}
+
+.navbar-header {
+    float: left;
+    margin-right: 228px;
+}
+
+.nav-bar-box {
+    display: flex !important;
+    align-items: center;
+}
+
+.navbar-collapse {
+    padding: 0 !important;
+}
+
+.nav-bar-logo .navbar-header a {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar-box .navbar-collapse ul {
+    float: left !important;
+    margin: 0px 20px 0px 0;
+    padding: 15px 0;
+}
+
+.nav-bar-box .navbar-collapse ul li a {
+    padding: 0;
+    margin-right: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #444444;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    transition: all .4s ease-in-out;
+}
+
+.nav-bar-box .navbar-collapse ul li a:hover {
+    color: #3976ce;
+}
+
+.nav-bar-box .navbar-collapse ul li .nav-link-active {
+    color: #3976ce;
+}
+
+.nav-bar-box .navbar-collapse ul li .nav-link-active:hover {
+    color: #3976ce;
+}
+
+.book-now {
+    display: inline-block;
+    background-color: #3976ce;
+    border-color: #3976ce;
+    font-size: 16px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 8px 22px;
+    margin: 5px 0;
+    float: right;
+    border-radius: 6px;
+    font-family: 'Open Sans', sans-serif;
+    transition: all .4s ease-in-out;
+}
+
+
+.book-now:hover {
+    background-color: #444444;
+    border-color: #444444;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.card {
+    width: 100%;
+}
+
+.box-card {
+    display: block;
+    box-shadow: 0 0px 22px rgb(0 0 0 / 15%);
+    border-radius: 10px;
+    position: relative;
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+.india-holiday-destination {
+    margin-top: 90px;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.india-holiday-destination span {
+    border-bottom: 5px solid #3976ce;
+    border-radius: 4px;
+}
+
+.india-holiday-destination h2 {
+    font-size: 30px;
+    margin: 0;
+    color: #3976ce;
+    font-weight: bold;
+    padding-bottom: 20px;
+    position: relative;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.india-holiday-destination h2::after {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 50px;
+    border-radius: 12px;
+    height: 7px;
+    background-color: #3976ce;
+}
+
+.destination-spot img {
+    width: 100%;
+}
+
+.card-image img {
+    width: 100%;
+    height: 243px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-image {
+    position: relative;
+    width: 100%;
+    height: 243px;
+}
+
+.seller {
+    content: "";
+    position: absolute;
+    background-color: #3976ce;
+    color: #ffffff;
+    font-size: 15px;
+    top: 20px;
+    padding: 4px 19px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    text-transform: capitalize;
+}
+
+.destination-lists {
+    width: 100%;
+}
+
+.box-card .card h2 {
+    margin-top: 15px;
+    color: #444444;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    transition: all .4s ease-in-out;
+}
+
+.box-card:hover {
+    text-decoration: none;
+}
+
+.box-card .card:hover h2 {
+    color: #3976ce;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.box-card .card:hover .view-detais {
+    background-color: #3976ce;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.box-card .card h5 {
+    color: #5e6d77;
+    font-size: 13px;
+    margin-top: -3px;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.box-card .card p {
+    margin: 0;
+    font-size: 15px;
+    color: #444444;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.details h6 {
+    padding: 5px 0px;
+    margin: 0;
+    float: left;
+    text-transform: capitalize;
+    font-size: 12px;
+    font-weight: 800;
+    color: #444444;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.view-detais {
+    background-color: #444444;
+    color: #ffffff;
+    float: right;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
+    transition: all .4s ease-in-out;
+}
+
+.details {
+    width: 100%;
+    display: table;
+    margin-top: 15px;
+}
+
+.all-tours {
+    font-size: 16px;
+    margin: 60px 0 90px 0px;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+    color: #3976ce;
+    display: inline-block;
+    text-transform: uppercase;
+    border: 2px solid #3976ce;
+    padding: 8px 22px;
+    border-radius: 8px;
+    transition: all .4s ease-in-out;
+}
+
+.all-tours:hover {
+    background-color: #3976ce;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.all-tourist-spot {
+    width: 100%;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.view-all-tours {
+    text-align: center;
+}
+
+.carousel-inner .item img {
+    display: block;
+    width: 100%;
+    height: 525px !important;
+    object-fit: cover;
+}
+
+.wildlife {
+    margin: 0 auto;
+    width: 780px;
+    height: 267px;
+    background-color: rgba(255, 255, 255, 0.60);
+    border-radius: 20px;
+}
+
+.wildlife h1 {
+    font-family: 'Ubuntu', sans-serif;
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 35px;
+    text-align: center;
+    padding: 40px 200px 0 200px;
+}
+
+.carousel-inner .item .carousel-caption {
+    bottom: 112px;
+}
+
+.read-more {
+    display: inline-block;
+    text-transform: uppercase;
+    background-color: #3976ce;
+    border-radius: 8px;
+    border: 1px solid #3976ce;
+    color: #ffffff;
+    padding: 9px 26px;
+    font-weight: bold;
+    font-size: 15px;
+    transition: all .4s ease-in-out;
+}
+
+.read-more:hover {
+    background-color: #444444;
+    color: #ffffff;
+    border: 1px solid #444444;
+    text-decoration: none;
+}
+
+.carousel .carousel-indicators li {
+    width: 15px;
+    height: 15px;
+}
+
+.honeymoom-list-main {
+    width: 100%;
+    margin: 0;
+}
+
+.international-honeymoon-tour h2 {
+    margin: 0;
+    color: #3976ce;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 100px 0px 20px 0px;
+    border-bottom: 1px solid #e3e3e3;
+    position: relative;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.international-honeymoon-tour h2::after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 7px;
+    background-color: #3976ce;
+    left: 0;
+    bottom: -4px;
+    border-radius: 12px;
+}
+
+.tourist-list {
+    margin-top: 20px;
+}
+
+.honeymoom-lists {
+    display: table;
+    width: 100%;
+}
+
+.honeymoon-list {
+    margin-top: 45px;
+}
+
+.package-images {
+    position: relative;
+    width: 100%;
+    height: 243px;
+}
+
+.package-images img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.honeymoon-packages h2 {
+    margin-top: 15px;
+    color: #444444;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    transition: all .4s ease-in-out;
+}
+
+.honeymoon-packages h5 {
+    color: #5e6d77;
+    font-size: 13px;
+    margin-top: -3px;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.honeymoon-packages p {
+    margin: 0;
+    font-size: 15px;
+    color: #444444;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.box-bottom {
+    width: 100%;
+    display: table;
+    margin-top: 15px;
+}
+
+.box-bottom h6 {
+    padding: 5px 0px;
+    margin: 0;
+    float: left;
+    text-transform: capitalize;
+    font-size: 11px;
+    font-weight: 800;
+    color: #444444;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.tour-details {
+    background-color: #444444;
+    color: #ffffff;
+    float: right;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
+    transition: all .4s ease-in-out;
+}
+
+.honeymoon-spots:hover {
+    text-decoration: none;
+}
+
+.honeymoon-spots:hover h2 {
+    color: #3976ce;
+}
+
+.honeymoon-spots:hover .tour-details {
+    background-color: #3976ce;
+    color: #ffffff;
+}
+
+.honeymoon-spots {
+    display: block;
+    box-shadow: 0 0px 22px rgb(0 0 0 / 15%);
+    padding: 10px;
+    background-color: #ffffff;
+    position: relative;
+    border-radius: 10px;
+}
+
+.best-seller {
+    content: "";
+    position: absolute;
+    background-color: #3976ce;
+    color: #ffffff;
+    top: 20px;
+    font-size: 15px;
+    padding: 4px 19px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    text-transform: capitalize;
+}
+
+.best-international-holidays {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    background-image: url(../images/dubai-banner.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.holidays-background {
+    padding-bottom: 200px;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.best-holidays {
+    width: 100%;
+    max-width: 770px;
+    margin: 0 auto;
+}
+
+.best-holidays h2 {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    font-size: 48px;
+    line-height: 62px;
+    padding-top: 90px;
+}
+
+.best-holidays p {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 12px;
+}
+
+.inquiry-form-main {
+    width: 100%;
+    margin: -125px 0 52px 0;
+}
+
+.inquiry-form {
+    width: 100%;
+    max-width: 710px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    box-shadow: 0 0 22px rgb(0 0 0 / 15%);
+    padding: 30px 40px;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+.inquiry-form h2 {
+    color: #3976ce;
+    font-size: 32px;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding-bottom: 16px;
+    font-weight: bold;
+    border-bottom: 1px solid #e3e3e3;
+    text-transform: capitalize;
+    position: relative;
+}
+
+.inquiry-form h2::before {
+    content: "";
+    width: 52px;
+    height: 6px;
+    position: absolute;
+    background-color: #3976ce;
+    left: 0;
+    bottom: -4px;
+    border-radius: 7px;
+}
+
+.name {
+    margin-bottom: 20px;
+}
+
+.name label {
+    font-size: 15px;
+    color: #787878;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 6px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.name input {
+    width: 100%;
+    height: 40px;
+    font-size: 12px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    padding: 0 10px;
+    text-transform: capitalize;
+    outline: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.last-name {
+    margin-bottom: 20px;
+}
+
+.email {
+    margin-bottom: 20px;
+}
+
+.email label {
+    font-size: 15px;
+    color: #787878;
+    font-weight: 600;
+    margin-bottom: 6px;
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.email input {
+    width: 100%;
+    height: 40px;
+    font-size: 12px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    padding: 0 10px;
+    text-transform: capitalize;
+    outline: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.fill-the-form {
+    margin-bottom: 20px;
+}
+
+.fill-the-form label {
+    font-size: 15px;
+    color: #787878;
+    font-weight: 600;
+    margin-bottom: 6px;
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.fill-the-form input {
+    width: 100%;
+    height: 40px;
+    font-size: 12px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    padding: 0 10px;
+    text-transform: capitalize;
+    outline: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.date {
+    margin-bottom: 20px;
+}
+
+.date label {
+    font-size: 15px;
+    color: #787878;
+    font-weight: 600;
+    margin-bottom: 6px;
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.date input {
+    width: 100%;
+    height: 40px;
+    font-size: 12px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    padding: 0 10px;
+    text-transform: lowercase;
+    outline: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.fill-the-form select {
+    width: 100%;
+    height: 40px;
+    font-size: 12px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    padding-left: 10px;
+    text-transform: capitalize;
+    outline: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.fill-the-form textarea {
+    width: 100%;
+    height: 100px;
+    resize: none;
+    font-size: 12px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    padding: 10px 0px 10px 10px;
+    text-transform: capitalize;
+    outline: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.inquiry-form form {
+    padding-top: 40px;
+}
+
+.submit {
+    text-align: right;
+}
+
+.inquiry-form .submit .send {
+    display: inline-block;
+    padding: 8px 32px;
+    background-color: #3976ce;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    border: 1px solid #3976ce;
+    border-radius: 6px;
+    transition: all .4s ease-in-out;
+}
+
+.inquiry-form .submit .send:hover {
+    background-color: #444444;
+    color: #ffffff;
+    border: 1px solid #444444;
+}
+
+.travel-main {
+    width: 100%;
+    margin: 0;
+    display: table;
+    padding: 70px 0 60px 0;
+    background-color: #303740;
+}
+
+.box {
+    width: 100%;
+    margin-top: 45px;
+}
+
+.logo {
+    display: inline-block;
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 22px rgb(0 0 0 / 14%);
+}
+
+.logo img {
+    width: 100%;
+    max-width: 160px;
+}
+
+.footer-containt p {
+    color: #9ca5af;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.holiday-theme {
+    width: 100%;
+    display: table;
+}
+
+.destination ul {
+    list-style: none;
+    padding: 0;
+}
+
+.holiday-theme h2 {
+    margin: 0;
+    padding-bottom: 24px;
+    color: #9ca5af;
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.destination {
+    width: 100%;
+    display: table;
+}
+
+.destination li {
+    margin-bottom: 6px;
+    display: inline-block;
+    width: 50%;
+    float: left;
+}
+
+.destination li a {
+    color: #9ca5af;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
+    transition: all .4s ease-in-out;
+}
+
+.destination li a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.copyright-main {
+    width: 100%;
+    color: #ffffff;
+    background-color: #272d35;
+}
+
+.copyright-box {
+    text-align: center;
+}
+
+.copyright-box p {
+    margin: 0;
+    padding: 20px 0;
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.copyright-box p a {
+    color: #fff;
+    text-decoration: none;
+    transition: all .4s ease-in-out;
+}
+
+.copyright-box p a:hover {
+    color: #3976ce;
+}
+
+@media(max-width: 1199px) {
+    .navbar-brand {
+        margin: 0 !important;
+        width: 145px;
+        height: 100% !important;
+        padding: 14px 0 !important;
+        display: block;
+    }
+
+    .nav-bar-box .navbar-collapse ul li a {
+        font-size: 14px;
+    }
+
+    .book-now {
+        font-size: 14px;
+    }
+
+    .wildlife {
+        width: 100%;
+        max-width: 780px;
+        height: 100%;
+        padding: 50px 30px;
+    }
+
+    .wildlife h1 {
+        font-size: 42px;
+        margin: 0 0 25px 0;
+        padding: 0;
+    }
+
+    .box {
+        width: 100%;
+    }
+
+    .navbar-header {
+        margin-right: 116px;
+    }
+
+    .nav-bar-logo .navbar-header .navbar-brand img {
+        width: 138px;
+        height: auto;
+    }
+
+    .all-tours {
+        margin: 60px 0;
+    }
+
+    .international-honeymoon-tour h2 {
+        padding: 70px 0px 20px 0px;
+    }
+
+    .box-card {
+        padding: 10px 10px 20px 10px;
+    }
+
+    .india-holiday-destination {
+        margin-top: 60px;
+    }
+}
+
+@media(max-width: 991px) {
+    .menu-bar {
+        padding: 0;
+    }
+
+    /* .navbar {
+        display: block !important;
+    } */
+
+    .navbar-header {
+        margin-right: 8px;
+    }
+
+    .nav-bar-box .navbar-collapse ul {
+        margin: 0;
+    }
+
+    .nav-bar-box .navbar-collapse ul li a {
+        font-size: 12px;
+        margin-right: 18px;
+    }
+
+    .nav-bar-logo .navbar-header .navbar-brand img {
+        width: 118px;
+        height: auto;
+    }
+
+    .book-now {
+        font-size: 13px;
+        padding: 8px 15px;
+    }
+
+    .carousel .carousel-indicators li {
+        width: 14px;
+        height: 14px;
+    }
+
+    .box-card {
+        padding: 15px;
+    }
+
+    .all-tours {
+        font-size: 15px;
+        margin: 43px 0 46px 0px;
+        padding: 8px 16px;
+    }
+
+    .india-holiday-destination h2 {
+        font-size: 26px;
+    }
+
+    .international-honeymoon-tour h2 {
+        font-size: 26px;
+        padding: 50px 0px 20px 0px;
+    }
+
+    .honeymoon-spots {
+        padding: 15px;
+    }
+
+    .best-holidays h2 {
+        font-size: 32px;
+        padding-top: 55px;
+    }
+
+    .best-holidays p {
+        font-size: 18px;
+    }
+
+    .inquiry-form h2 {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-header {
+        margin: 0;
+    }
+
+    /* .carousel-inner .item img {
+       height: 300px !important;
+    } */
+
+
+    .nav-bar-box {
+        display: block !important;
+    }
+
+    .menu-bar .container .navbar {
+        display: block !important;
+    }
+
+    .nav-bar-logo .navbar-header .navbar-brand img {
+        width: 105px;
+    }
+
+    .nav-bar-logo .navbar-header a {
+        margin: 10px 100px 10px 0;
+    }
+
+    .nav-bar-logo .navbar-header .navbar-toggle {
+        margin-top: 18px;
+        margin-bottom: 18px;
+        border: 1px solid #5a8dd5;
+        background-color: #5a8dd5;
+    }
+
+    .nav-bar-logo .navbar-header .navbar-toggle:hover,
+    .nav-bar-logo .navbar-header .navbar-toggle:focus {
+        background-color: #5a8dd5;
+    }
+
+    .nav-bar-logo .navbar-header .navbar-toggle .icon-bar {
+        background-color: #fff;
+    }
+
+    .box {
+        margin-bottom: 30px;
+    }
+
+    .all-tours {
+        margin: 34px 0 40px 0px;
+    }
+
+    .india-holiday-destination {
+        margin-top: 50px;
+    }
+
+    .international-honeymoon-tour h2 {
+        padding: 50px 0px 20px 0px;
+    }
+
+    .honeymoon-list {
+        float: left;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .best-holidays h2 {
+        font-size: 32px;
+    }
+
+    .best-holidays p {
+        font-size: 15px;
+    }
+
+    .inquiry-form {
+        max-width: 520px;
+    }
+
+    .footer .travel-main .container {
+        max-width: 520px;
+    }
+
+    .footer-box {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .holiday-theme {
+        margin-bottom: 30px;
+    }
+
+    .travel-main {
+        padding: 70px 0 0px 0;
+    }
+
+    .copyright-box p {
+        font-size: 12px;
+    }
+
+    .navbar-header {
+        margin: 0;
+        float: inherit;
+    }
+
+    .navbar-collapse {
+        background: #f5f5f5;
+        border: none !important;
+    }
+
+    .nav li {
+        padding: 10px 0;
+    }
+
+    .nav-bar-box .navbar-collapse ul {
+        margin: 0;
+        padding: 20px;
+    }
+
+    .nav-bar-box .navbar-collapse ul li a {
+        font-size: 16px;
+        margin-right: 0;
+    }
+
+    .book-now {
+        margin: 30px 20px 0 0;
+    }
+
+    /* .book-now {
+      float: inherit;
+    } */
+
+}
+
+@media(max-width: 575px) {
+    .inquiry-form {
+        padding: 30px 18px;
+    }
+
+    .copyright-box p {
+        padding: 16px 0;
+        font-size: 11px;
+    }
+
+    .inquiry-form .submit .send {
+        font-size: 15px;
+        padding: 8px 20px;
+    }
+}
+
+@media(max-width: 420px) {
+    .read-more {
+        padding: 9px 10px;
+        font-size: 12px;
+    }
+
+    .read-more {
+        display: inline-block;
+        text-transform: uppercase;
+        background-color: #3976ce;
+        border-radius: 8px;
+        border: 1px solid #3976ce;
+        color: #ffffff;
+        padding: 9px 10px;
+        font-weight: bold;
+        font-size: 12px;
+        transition: all .4s ease-in-out;
+    }
+
+    .wildlife {
+        width: 308px;
+        height: 100%;
+        padding: 27px 21px;
+    }
+
+    .wildlife h1 {
+        font-size: 34px;
+    }
+
+    .carousel-inner .item .carousel-caption {
+        bottom: 67px;
+        left: -10%;
+        right: -10%;
+    }
+
+    .carousel-inner .item img {
+        height: 354px !important;
+    }
+
+    .india-holiday-destination h2 {
+        font-size: 24px;
+    }
+
+    .card-image {
+        height: 195px;
+    }
+
+    .card-image img {
+        height: 100%;
+    }
+
+    .package-images {
+        height: 195px;
+    }
+
+    .best-holidays h2 {
+        line-height: 40px;
+        font-size: 26px;
+    }
+
+    .best-holidays p {
+        font-size: 16px;
+    }
+
+    .all-tours {
+        margin: 10px 0 40px 0px;
+    }
+
+    .box {
+        margin-top: 34px;
+    }
+
+    .honeymoon-list {
+        margin-top: 34px;
+    }
+}
